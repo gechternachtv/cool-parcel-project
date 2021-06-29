@@ -1,0 +1,19 @@
+{
+  "name": "parcel-teste",
+  "version": "1.0.0",
+  "main": "build/index.html",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel src/*.html ",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.0.0-beta.2",
+    "autoprefixer": "^10.2.6",
+    "parcel": "^2.0.0-beta.2",
+    "parcel-namer-without-hash": "^0.0.1",
+    "postcss": "^8.1.0",
+    "posthtml-include": "^1.7.1",
+    "posthtml-md": "^1.1.0"
+  }
+}

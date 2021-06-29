@@ -1,0 +1,21 @@
+@use "module";
+
+body{
+    background-color:wheat;
+    h1.title{
+        font-size:30px;
+        color:red;
+        opacity:0;
+        transition:all 2s;
+        &.active{
+            opacity:1;
+            color:tomato;
+        }
+    }
+
+    .content{
+        color:cadetblue;
+        display:grid;
+        grid-template-columns:1fr 1fr;
+    }
+}
